@@ -72,8 +72,8 @@ export default function QualityProducts() {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   return (
-    <div ref={sectionRef}  className="flex flex-col items-center py-[82px] md:py-40">
-     <motion.h2
+    <div ref={sectionRef} className="flex flex-col items-center py-[82px] md:py-40">
+      <motion.h2
         className="md:text-xl text-[30px] text-black font-normal mb-4"
         initial={{ opacity: 0, y: 50 }}
         animate={isInView ? { opacity: 1, y: 0 } : {}}
